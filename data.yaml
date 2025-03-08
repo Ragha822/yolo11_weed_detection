@@ -1,0 +1,14 @@
+# data.yaml
+
+path: /content/drive/MyDrive/CottonWeedDet3/processed  # Base path for the processed dataset
+
+train: 
+  images: /content/drive/MyDrive/CottonWeedDet3/processed/images  # Path to training images
+  labels: /content/drive/MyDrive/CottonWeedDet3/processed/annotated  # Path to training labels
+
+val: 
+  images: /content/drive/MyDrive/CottonWeedDet3/processed/val_images  # Path to validation images
+  labels: /content/drive/MyDrive/CottonWeedDet3/processed/val_annotations  # Path to validation labels
+
+nc: 3  # Number of classes
+names: ['morningglory', 'palmer_amaranth', 'carpetweed']  # List of class names
